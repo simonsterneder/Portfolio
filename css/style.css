@@ -465,8 +465,12 @@ header.sticky{
 	padding: 40px;
 }
 .ends p{
-	font-size: var(--p-font);
-	letter-spacing: 1px;
+        font-size: var(--p-font);
+        letter-spacing: 1px;
+}
+.ends a{
+        color: var(--text-color);
+        text-decoration: underline;
 }
 input, label {
 	margin: 5px 5px;
